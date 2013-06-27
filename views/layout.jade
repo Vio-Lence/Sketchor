@@ -1,0 +1,28 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/wColorPicker.css')
+    link(rel='stylesheet', href='/stylesheets/wPaint.css')
+    script(type='text/javascript', src='socket.io/socket.io.js')
+    script(type='text/javascript', src='javascripts/jquery-1.9.1.js')
+    script(type='text/javascript', src='javascripts/jquery.ui.core.min.js')
+    script(type='text/javascript', src='javascripts/jquery.ui.widget.min.js')
+    script(type='text/javascript', src='javascripts/jquery.ui.mouse.min.js')
+    script(type='text/javascript', src='javascripts/jquery.ui.draggable.min.js')
+    script(type='text/javascript', src='javascripts/main.js')
+    script(type='text/javascript', src='javascripts/wColorPicker.js')
+    script(type='text/javascript', src='javascripts/wPaint.js')
+
+  body
+    div#round
+    div#chat
+      div#chatmain
+      div#chatinput
+        input#chatdata(name='chatdata', type='text')
+      div#userlist
+    div#timer
+    div#word
+    div#playground
+    img#canvasimage

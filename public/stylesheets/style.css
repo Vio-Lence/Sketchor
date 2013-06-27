@@ -1,0 +1,60 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div#round {
+  width: 100%;
+  font-size: 24px;
+}
+
+div#chat {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 240px;
+  float: left;
+}
+
+
+div#chatmain {
+  height: 400px;
+  overflow: auto;
+}
+
+div#chatinput {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #ccc;
+}
+      input#chatdata { width: 180px;}
+      input#chatsend {}
+div#playground {
+  display: none;
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+  float: left;
+  position: relative;
+  margin: 0 0 0 250px;
+}
+img#canvasimage {
+  display: none;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;float: left;
+  position: relative;
+  margin: 0 0 0 250px;
+}
+
+    div#userlist .active { color: red;}
+    div#timer {}
+
+    ._wPaint_menu { display: none !important;}
